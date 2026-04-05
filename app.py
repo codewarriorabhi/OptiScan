@@ -143,7 +143,7 @@ def extract_text():
         logger.warning(f"File too large: {file_size} bytes")
         return jsonify({'error': f'File too large. Maximum size: {MAX_FILE_SIZE // (1024*1024)}MB'}), 400
     
-    unique_filename = f"{uuid.uuid4()}_{secure_filename(file.filename)}"
+    unique_filename = f"{uuid.uuid4()}_{secure_filename(file.filename or '')}"
     filepath = os.path.join(app.config['UPLOAD_FOLDER'], unique_filename)
     
     temp_filepath = filepath

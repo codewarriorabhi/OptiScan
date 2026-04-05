@@ -1,0 +1,127 @@
+2026-04-05 18:23:56,160 - INFO - OptiScan application starting...
+2026-04-05 18:23:56,163 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2026-04-05 18:23:56,163 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-05 18:24:39,719 - INFO - 127.0.0.1 - - [05/Apr/2026 18:24:39] "GET / HTTP/1.1" 200 -
+2026-04-05 18:24:39,938 - INFO - 127.0.0.1 - - [05/Apr/2026 18:24:39] "GET /static/style.css HTTP/1.1" 200 -
+2026-04-05 18:24:39,980 - INFO - 127.0.0.1 - - [05/Apr/2026 18:24:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-05 18:24:59,352 - INFO - File saved: 5ef27b6e-8d4c-4bc9-81d8-4a7c62a832dc_logiin.png
+2026-04-05 18:24:59,406 - ERROR - OCR processing error: Unsupported image format/type
+2026-04-05 18:24:59,407 - ERROR - OCR processing failed
+2026-04-05 18:24:59,407 - INFO - Cleaned up temp file: 5ef27b6e-8d4c-4bc9-81d8-4a7c62a832dc_logiin.png
+2026-04-05 18:24:59,407 - INFO - 127.0.0.1 - - [05/Apr/2026 18:24:59] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-04-05 18:25:03,034 - INFO - File saved: e0054b43-3e21-4df7-8a4f-eff5b12c9885_logiin.png
+2026-04-05 18:25:03,035 - ERROR - OCR processing error: Unsupported image format/type
+2026-04-05 18:25:03,035 - ERROR - OCR processing failed
+2026-04-05 18:25:03,036 - INFO - Cleaned up temp file: e0054b43-3e21-4df7-8a4f-eff5b12c9885_logiin.png
+2026-04-05 18:25:03,036 - INFO - 127.0.0.1 - - [05/Apr/2026 18:25:03] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-04-05 18:27:07,047 - INFO - OptiScan application starting...
+2026-04-05 18:28:44,731 - INFO - 127.0.0.1 - - [05/Apr/2026 18:28:44] "GET / HTTP/1.1" 200 -
+2026-04-05 18:28:44,772 - INFO - 127.0.0.1 - - [05/Apr/2026 18:28:44] "GET /static/style.css HTTP/1.1" 200 -
+2026-04-05 18:28:44,785 - INFO - 127.0.0.1 - - [05/Apr/2026 18:28:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-05 18:28:46,998 - INFO - 127.0.0.1 - - [05/Apr/2026 18:28:46] "GET / HTTP/1.1" 200 -
+2026-04-05 18:28:47,021 - INFO - 127.0.0.1 - - [05/Apr/2026 18:28:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-05 18:28:48,405 - INFO - 127.0.0.1 - - [05/Apr/2026 18:28:48] "GET / HTTP/1.1" 200 -
+2026-04-05 18:28:48,421 - INFO - 127.0.0.1 - - [05/Apr/2026 18:28:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-05 18:28:49,060 - INFO - 127.0.0.1 - - [05/Apr/2026 18:28:49] "GET / HTTP/1.1" 200 -
+2026-04-05 18:28:49,077 - INFO - 127.0.0.1 - - [05/Apr/2026 18:28:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-05 18:29:10,462 - INFO - File saved: 74ad41b5-9659-49f0-96ef-a03781f4a6e6_Screenshot_From_2026-03-25_11-09-41.png
+2026-04-05 18:29:11,501 - INFO - OCR successful for: 74ad41b5-9659-49f0-96ef-a03781f4a6e6_Screenshot_From_2026-03-25_11-09-41.png
+2026-04-05 18:29:11,502 - INFO - Cleaned up temp file: 74ad41b5-9659-49f0-96ef-a03781f4a6e6_Screenshot_From_2026-03-25_11-09-41.png
+2026-04-05 18:29:11,502 - INFO - 127.0.0.1 - - [05/Apr/2026 18:29:11] "POST /extract HTTP/1.1" 200 -
+2026-04-05 18:29:39,293 - INFO - 127.0.0.1 - - [05/Apr/2026 18:29:39] "POST /download HTTP/1.1" 200 -
+2026-04-05 18:29:57,603 - INFO - File saved: 3fd4d573-e71a-49e7-a0da-c40581b4a441_Screenshot_From_2026-03-25_11-09-41.png
+2026-04-05 18:29:58,612 - INFO - OCR successful for: 3fd4d573-e71a-49e7-a0da-c40581b4a441_Screenshot_From_2026-03-25_11-09-41.png
+2026-04-05 18:29:58,612 - INFO - Cleaned up temp file: 3fd4d573-e71a-49e7-a0da-c40581b4a441_Screenshot_From_2026-03-25_11-09-41.png
+2026-04-05 18:29:58,612 - INFO - 127.0.0.1 - - [05/Apr/2026 18:29:58] "POST /extract HTTP/1.1" 200 -
+2026-04-05 18:30:11,198 - INFO - File saved: 1ee33a1b-00e9-4406-a6b1-3a89064640c2_WhatsApp_Image_2026-03-17_at_18.45.00.jpeg
+2026-04-05 18:30:11,529 - INFO - OCR successful for: 1ee33a1b-00e9-4406-a6b1-3a89064640c2_WhatsApp_Image_2026-03-17_at_18.45.00.jpeg
+2026-04-05 18:30:11,529 - INFO - Cleaned up temp file: 1ee33a1b-00e9-4406-a6b1-3a89064640c2_WhatsApp_Image_2026-03-17_at_18.45.00.jpeg
+2026-04-05 18:30:11,529 - INFO - 127.0.0.1 - - [05/Apr/2026 18:30:11] "POST /extract HTTP/1.1" 200 -
+2026-04-05 18:30:50,941 - INFO - File saved: 20c9daa3-c7a7-47d2-adc8-fccc6c749035_WhatsApp_Image_2026-02-24_at_16.11.15.jpeg
+2026-04-05 18:30:51,407 - INFO - OCR successful for: 20c9daa3-c7a7-47d2-adc8-fccc6c749035_WhatsApp_Image_2026-02-24_at_16.11.15.jpeg
+2026-04-05 18:30:51,407 - INFO - Cleaned up temp file: 20c9daa3-c7a7-47d2-adc8-fccc6c749035_WhatsApp_Image_2026-02-24_at_16.11.15.jpeg
+2026-04-05 18:30:51,407 - INFO - 127.0.0.1 - - [05/Apr/2026 18:30:51] "POST /extract HTTP/1.1" 200 -
+2026-04-05 18:31:43,268 - INFO - File saved: 5da2d084-4bb2-4bb5-843e-0c022e982e4c_WhatsApp_Image_2026-02-24_at_16.11.15.jpeg
+2026-04-05 18:31:43,724 - INFO - OCR successful for: 5da2d084-4bb2-4bb5-843e-0c022e982e4c_WhatsApp_Image_2026-02-24_at_16.11.15.jpeg
+2026-04-05 18:31:43,724 - INFO - Cleaned up temp file: 5da2d084-4bb2-4bb5-843e-0c022e982e4c_WhatsApp_Image_2026-02-24_at_16.11.15.jpeg
+2026-04-05 18:31:43,725 - INFO - 127.0.0.1 - - [05/Apr/2026 18:31:43] "POST /extract HTTP/1.1" 200 -
+2026-04-05 18:32:04,510 - INFO - File saved: e5432edf-3103-4476-a88d-c28184797ea2_back.jpeg
+2026-04-05 18:32:04,511 - ERROR - OCR processing error: cannot identify image file "/home/warriorr/Desktop/I'm Developer/OptiScan/uploads/e5432edf-3103-4476-a88d-c28184797ea2_back.jpeg"
+2026-04-05 18:32:04,511 - ERROR - OCR processing failed
+2026-04-05 18:32:04,511 - INFO - Cleaned up temp file: e5432edf-3103-4476-a88d-c28184797ea2_back.jpeg
+2026-04-05 18:32:04,511 - INFO - 127.0.0.1 - - [05/Apr/2026 18:32:04] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-04-05 18:32:17,363 - INFO - File saved: 75b81583-7344-4f77-a2c5-e2321183d61a_back.jpeg
+2026-04-05 18:32:17,363 - ERROR - OCR processing error: cannot identify image file "/home/warriorr/Desktop/I'm Developer/OptiScan/uploads/75b81583-7344-4f77-a2c5-e2321183d61a_back.jpeg"
+2026-04-05 18:32:17,363 - ERROR - OCR processing failed
+2026-04-05 18:32:17,364 - INFO - Cleaned up temp file: 75b81583-7344-4f77-a2c5-e2321183d61a_back.jpeg
+2026-04-05 18:32:17,364 - INFO - 127.0.0.1 - - [05/Apr/2026 18:32:17] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-04-05 18:32:24,881 - INFO - File saved: e1320fb3-9be5-4b18-9e02-1e9d24d43f40_front.jpeg
+2026-04-05 18:32:24,882 - ERROR - OCR processing error: cannot identify image file "/home/warriorr/Desktop/I'm Developer/OptiScan/uploads/e1320fb3-9be5-4b18-9e02-1e9d24d43f40_front.jpeg"
+2026-04-05 18:32:24,882 - ERROR - OCR processing failed
+2026-04-05 18:32:24,882 - INFO - Cleaned up temp file: e1320fb3-9be5-4b18-9e02-1e9d24d43f40_front.jpeg
+2026-04-05 18:32:24,882 - INFO - 127.0.0.1 - - [05/Apr/2026 18:32:24] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-04-05 18:32:31,870 - INFO - File saved: 20e6865c-76fd-4f4f-86b9-c74ba60d4df0_WhatsApp_Image_2026-02-24_at_16.11.15.jpeg
+2026-04-05 18:32:32,318 - INFO - OCR successful for: 20e6865c-76fd-4f4f-86b9-c74ba60d4df0_WhatsApp_Image_2026-02-24_at_16.11.15.jpeg
+2026-04-05 18:32:32,318 - INFO - Cleaned up temp file: 20e6865c-76fd-4f4f-86b9-c74ba60d4df0_WhatsApp_Image_2026-02-24_at_16.11.15.jpeg
+2026-04-05 18:32:32,318 - INFO - 127.0.0.1 - - [05/Apr/2026 18:32:32] "POST /extract HTTP/1.1" 200 -
+2026-04-05 18:32:40,026 - INFO - File saved: 68e571bf-8ff7-4e84-84e7-1838d90b90ba_Vya.jpeg
+2026-04-05 18:32:40,237 - WARNING - No text extracted from image
+2026-04-05 18:32:40,238 - INFO - Cleaned up temp file: 68e571bf-8ff7-4e84-84e7-1838d90b90ba_Vya.jpeg
+2026-04-05 18:32:40,238 - INFO - 127.0.0.1 - - [05/Apr/2026 18:32:40] "POST /extract HTTP/1.1" 200 -
+2026-04-05 18:32:44,020 - INFO - File saved: 5d1487d4-d663-4229-81a6-262b3b764f36_Vya.jpeg
+2026-04-05 18:32:44,220 - WARNING - No text extracted from image
+2026-04-05 18:32:44,221 - INFO - Cleaned up temp file: 5d1487d4-d663-4229-81a6-262b3b764f36_Vya.jpeg
+2026-04-05 18:32:44,221 - INFO - 127.0.0.1 - - [05/Apr/2026 18:32:44] "POST /extract HTTP/1.1" 200 -
+2026-04-05 18:32:47,799 - INFO - File saved: 8006a2b2-0c1d-4057-8969-dd9ecc19416d_Vya.jpeg
+2026-04-05 18:32:47,995 - WARNING - No text extracted from image
+2026-04-05 18:32:47,995 - INFO - Cleaned up temp file: 8006a2b2-0c1d-4057-8969-dd9ecc19416d_Vya.jpeg
+2026-04-05 18:32:47,996 - INFO - 127.0.0.1 - - [05/Apr/2026 18:32:47] "POST /extract HTTP/1.1" 200 -
+2026-04-05 18:32:51,614 - INFO - File saved: 3c438792-ee0b-4389-bff4-6508caa63874_Vya.jpeg
+2026-04-05 18:32:51,808 - WARNING - No text extracted from image
+2026-04-05 18:32:51,808 - INFO - Cleaned up temp file: 3c438792-ee0b-4389-bff4-6508caa63874_Vya.jpeg
+2026-04-05 18:32:51,808 - INFO - 127.0.0.1 - - [05/Apr/2026 18:32:51] "POST /extract HTTP/1.1" 200 -
+2026-04-05 18:34:45,638 - INFO - OptiScan application starting...
+2026-04-05 18:35:20,686 - INFO - File saved: 6699ac52-64ea-449a-baba-3d52e0a16a70_Vya.jpeg
+2026-04-05 18:35:20,894 - WARNING - No text extracted from image
+2026-04-05 18:35:20,894 - INFO - Cleaned up temp file: 6699ac52-64ea-449a-baba-3d52e0a16a70_Vya.jpeg
+2026-04-05 18:35:20,895 - INFO - 127.0.0.1 - - [05/Apr/2026 18:35:20] "POST /extract HTTP/1.1" 200 -
+2026-04-05 18:40:29,482 - INFO - 127.0.0.1 - - [05/Apr/2026 18:40:29] "GET / HTTP/1.1" 200 -
+2026-04-05 18:40:29,501 - INFO - 127.0.0.1 - - [05/Apr/2026 18:40:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-05 18:40:30,426 - INFO - 127.0.0.1 - - [05/Apr/2026 18:40:30] "GET / HTTP/1.1" 200 -
+2026-04-05 18:40:30,445 - INFO - 127.0.0.1 - - [05/Apr/2026 18:40:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-05 18:40:31,109 - INFO - 127.0.0.1 - - [05/Apr/2026 18:40:31] "GET / HTTP/1.1" 200 -
+2026-04-05 18:40:31,122 - INFO - 127.0.0.1 - - [05/Apr/2026 18:40:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-05 18:40:35,758 - INFO - File saved: c10a5800-e47d-4ddd-976f-15330062601d_Vya.jpeg
+2026-04-05 18:40:35,968 - WARNING - No text extracted from image
+2026-04-05 18:40:35,968 - INFO - Cleaned up temp file: c10a5800-e47d-4ddd-976f-15330062601d_Vya.jpeg
+2026-04-05 18:40:35,968 - INFO - 127.0.0.1 - - [05/Apr/2026 18:40:35] "POST /extract HTTP/1.1" 200 -
+2026-04-05 18:40:37,592 - INFO - File saved: ae384d27-9187-48f1-92ee-9fa47c9b76ae_Vya.jpeg
+2026-04-05 18:40:37,793 - WARNING - No text extracted from image
+2026-04-05 18:40:37,794 - INFO - Cleaned up temp file: ae384d27-9187-48f1-92ee-9fa47c9b76ae_Vya.jpeg
+2026-04-05 18:40:37,794 - INFO - 127.0.0.1 - - [05/Apr/2026 18:40:37] "POST /extract HTTP/1.1" 200 -
+2026-04-05 18:40:45,113 - INFO - 127.0.0.1 - - [05/Apr/2026 18:40:45] "GET / HTTP/1.1" 200 -
+2026-04-05 18:40:45,137 - INFO - 127.0.0.1 - - [05/Apr/2026 18:40:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-05 18:40:50,789 - INFO - File saved: 40f3fd93-697c-4be9-b822-70369aa8ebcc_logiin.png
+2026-04-05 18:40:50,790 - ERROR - OCR processing error: Unsupported image format/type
+2026-04-05 18:40:50,790 - ERROR - OCR processing failed
+2026-04-05 18:40:50,791 - INFO - Cleaned up temp file: 40f3fd93-697c-4be9-b822-70369aa8ebcc_logiin.png
+2026-04-05 18:40:50,791 - INFO - 127.0.0.1 - - [05/Apr/2026 18:40:50] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-04-05 18:41:06,685 - INFO - File saved: c3b5e22f-ac64-406f-af22-d741c86f30e4_Screenshot_From_2026-04-05_18-35-23.png
+2026-04-05 18:41:07,067 - INFO - OCR successful for: c3b5e22f-ac64-406f-af22-d741c86f30e4_Screenshot_From_2026-04-05_18-35-23.png
+2026-04-05 18:41:07,067 - INFO - Cleaned up temp file: c3b5e22f-ac64-406f-af22-d741c86f30e4_Screenshot_From_2026-04-05_18-35-23.png
+2026-04-05 18:41:07,068 - INFO - 127.0.0.1 - - [05/Apr/2026 18:41:07] "POST /extract HTTP/1.1" 200 -
+2026-04-05 18:41:20,933 - INFO - File saved: 654fa936-80e7-4fda-ba16-51a1677f017c_Screenshot_From_2026-04-05_18-35-23.png
+2026-04-05 18:41:21,315 - INFO - OCR successful for: 654fa936-80e7-4fda-ba16-51a1677f017c_Screenshot_From_2026-04-05_18-35-23.png
+2026-04-05 18:41:21,315 - INFO - Cleaned up temp file: 654fa936-80e7-4fda-ba16-51a1677f017c_Screenshot_From_2026-04-05_18-35-23.png
+2026-04-05 18:41:21,315 - INFO - 127.0.0.1 - - [05/Apr/2026 18:41:21] "POST /extract HTTP/1.1" 200 -
+2026-04-05 18:41:38,840 - INFO - File saved: deb2dd55-444f-42df-a8b4-536568288086_Screenshot_From_2026-03-30_10-06-43.png
+2026-04-05 18:41:39,227 - INFO - OCR successful for: deb2dd55-444f-42df-a8b4-536568288086_Screenshot_From_2026-03-30_10-06-43.png
+2026-04-05 18:41:39,227 - INFO - Cleaned up temp file: deb2dd55-444f-42df-a8b4-536568288086_Screenshot_From_2026-03-30_10-06-43.png
+2026-04-05 18:41:39,227 - INFO - 127.0.0.1 - - [05/Apr/2026 18:41:39] "POST /extract HTTP/1.1" 200 -
+2026-04-05 18:42:07,654 - INFO - File saved: 838594d6-bb53-48cc-9b82-2310ac4e71eb_Screenshot_From_2026-03-30_10-06-48.png
+2026-04-05 18:42:07,985 - INFO - OCR successful for: 838594d6-bb53-48cc-9b82-2310ac4e71eb_Screenshot_From_2026-03-30_10-06-48.png
+2026-04-05 18:42:07,985 - INFO - Cleaned up temp file: 838594d6-bb53-48cc-9b82-2310ac4e71eb_Screenshot_From_2026-03-30_10-06-48.png
+2026-04-05 18:42:07,985 - INFO - 127.0.0.1 - - [05/Apr/2026 18:42:07] "POST /extract HTTP/1.1" 200 -

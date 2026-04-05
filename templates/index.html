@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:;">
+    <title>OptiScan - OCR Text Extraction</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <rect width="32" height="32" rx="8" fill="#2d6cdf"/>
+                    <path d="M8 12h16M8 16h12M8 20h14M22 10v12M26 10v12" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <h1>OptiScan</h1>
+            </div>
+            <p class="tagline">Extract text from images with precision</p>
+        </header>
+
+        <main class="main-content">
+            <section class="upload-section">
+                <div class="section-header">
+                    <h2>Image Input</h2>
+                    <span class="supported-formats">Supports: JPG, PNG, JPEG, WEBP, GIF, BMP (Max 16MB)</span>
+                </div>
+
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-placeholder" id="uploadPlaceholder">
+                        <svg class="upload-icon" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 32V16M24 16L18 22M24 16L30 22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8 32v4a4 4 0 004 4h24a4 4 0 004-4v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <p>Drag & drop your image here</p>
+                        <span>or</span>
+                        <button class="btn-browse" type="button" id="browseBtn">Browse Files</button>
+                    </div>
+                    
+                    <div class="image-preview" id="imagePreview" style="display: none;">
+                        <img id="previewImage" src="" alt="Preview">
+                        <button class="btn-remove" type="button" id="removeBtn" aria-label="Remove image">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M15 5L5 15M5 5l10 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                        <div class="file-info" id="fileInfo"></div>
+                    </div>
+                    
+                    <input type="file" id="fileInput" name="file" accept=".jpg,.jpeg,.png,.webp,.gif,.bmp" hidden>
+                </div>
+
+                <button class="btn-extract" type="button" id="extractBtn" disabled>
+                    <span class="btn-text">Extract Text</span>
+                    <span class="btn-loader" style="display: none;">
+                        <svg class="spinner" width="20" height="20" viewBox="0 0 20 20">
+                            <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" fill="none" stroke-dasharray="40" stroke-dashoffset="10"/>
+                        </svg>
+                        Processing...
+                    </span>
+                </button>
+            </section>
+
+            <section class="output-section">
+                <div class="section-header">
+                    <h2>Extracted Text</h2>
+                    <div class="output-actions" id="outputActions" style="display: none;">
+                        <button class="btn-action" type="button" id="copyBtn" title="Copy to clipboard">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                <rect x="5" y="5" width="8" height="10" rx="1" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M3 12V3a1 1 0 011-1h6" stroke="currentColor" stroke-width="1.5"/>
+                            </svg>
+                            Copy
+                        </button>
+                        <button class="btn-action" type="button" id="downloadBtn" title="Download text">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                <path d="M9 3v9M9 12L5 8M9 12l4-4M3 15v1a1 1 0 001 1h10a1 1 0 001-1v-1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                            Download
+                        </button>
+                        <button class="btn-action" type="button" id="clearBtn" title="Clear text">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                <path d="M14 5L5 14M5 5l9 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                            Clear
+                        </button>
+                    </div>
+                </div>
+
+                <div class="output-area">
+                    <div class="output-placeholder" id="outputPlaceholder">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M12 16h8v-4h-8v4zM12 24h8v-4h-8v4zM12 32h8v-4h-8v4zM24 16h12v-4h-12v4zM24 24h12v-4h-12v4zM24 32h12v-4h-12v4z" fill="currentColor"/>
+                        </svg>
+                        <p>Extracted text will appear here</p>
+                    </div>
+                    <textarea class="output-text" id="outputText" readonly placeholder="Text extracted from your image will be displayed here..."></textarea>
+                </div>
+
+                <div class="output-stats" id="outputStats" style="display: none;">
+                    <span><strong id="charCount">0</strong> characters</span>
+                    <span><strong id="wordCount">0</strong> words</span>
+                    <span><strong id="lineCount">0</strong> lines</span>
+                </div>
+            </section>
+        </main>
+
+        <footer class="app-footer">
+            <p>&copy; 2026 OptiScan. Secure OCR text extraction.</p>
+        </footer>
+    </div>
+
+    <div class="toast" id="toast" style="display: none;"></div>
+
+    <script>
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const uploadPlaceholder = document.getElementById('uploadPlaceholder');
+        const imagePreview = document.getElementById('imagePreview');
+        const previewImage = document.getElementById('previewImage');
+        const fileInfo = document.getElementById('fileInfo');
+        const browseBtn = document.getElementById('browseBtn');
+        const removeBtn = document.getElementById('removeBtn');
+        const extractBtn = document.getElementById('extractBtn');
+        const outputText = document.getElementById('outputText');
+        const outputPlaceholder = document.getElementById('outputPlaceholder');
+        const outputActions = document.getElementById('outputActions');
+        const outputStats = document.getElementById('outputStats');
+        const charCount = document.getElementById('charCount');
+        const wordCount = document.getElementById('wordCount');
+        const lineCount = document.getElementById('lineCount');
+        const copyBtn = document.getElementById('copyBtn');
+        const downloadBtn = document.getElementById('downloadBtn');
+        const clearBtn = document.getElementById('clearBtn');
+        const toast = document.getElementById('toast');
+
+        let currentFileName = 'extracted-text.txt';
+
+        fileInput.addEventListener('change', handleFileSelect);
+        
+        browseBtn.addEventListener('click', () => fileInput.click());
+        
+        removeBtn.addEventListener('click', resetUpload);
+        
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('drag-over');
+        });
+        
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('drag-over');
+        });
+        
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('drag-over');
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                fileInput.files = files;
+                handleFileSelect({ target: fileInput });
+            }
+        });
+
+        function handleFileSelect(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+            
+            if (!validateFile(file)) {
+                resetUpload();
+                showToast('Invalid file type. Please upload JPG, PNG, JPEG, WEBP, GIF, or BMP.', 'error');
+                return;
+            }
+            
+            if (file.size > 16 * 1024 * 1024) {
+                resetUpload();
+                showToast('File too large. Maximum size is 16MB.', 'error');
+                return;
+            }
+            
+            currentFileName = file.name.replace(/\.[^/.]+$/, '') + '.txt';
+            
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                previewImage.src = e.target.result;
+                uploadPlaceholder.style.display = 'none';
+                imagePreview.style.display = 'flex';
+                fileInfo.textContent = `${file.name} (${formatFileSize(file.size)})`;
+                extractBtn.disabled = false;
+            };
+            reader.readAsDataURL(file);
+        }
+
+        function validateFile(file) {
+            const allowedTypes = ['image/jpeg', 'image/png', 'image/webp', 'image/gif', 'image/bmp'];
+            return allowedTypes.includes(file.type);
+        }
+
+        function formatFileSize(bytes) {
+            if (bytes < 1024) return bytes + ' B';
+            if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+            return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
+        }
+
+        function resetUpload() {
+            fileInput.value = '';
+            previewImage.src = '';
+            uploadPlaceholder.style.display = 'flex';
+            imagePreview.style.display = 'none';
+            extractBtn.disabled = true;
+            fileInfo.textContent = '';
+        }
+
+        extractBtn.addEventListener('click', async () => {
+            if (!fileInput.files[0]) return;
+            
+            const btnText = extractBtn.querySelector('.btn-text');
+            const btnLoader = extractBtn.querySelector('.btn-loader');
+            btnText.style.display = 'none';
+            btnLoader.style.display = 'inline-flex';
+            extractBtn.disabled = true;
+            
+            const formData = new FormData();
+            formData.append('file', fileInput.files[0]);
+            
+            try {
+                const response = await fetch('/extract', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                if (!response.ok) {
+                    showToast(data.error || 'Extraction failed', 'error');
+                    return;
+                }
+                
+                if (data.text) {
+                    outputText.value = data.text;
+                    outputPlaceholder.style.display = 'none';
+                    outputActions.style.display = 'flex';
+                    outputStats.style.display = 'flex';
+                    updateStats();
+                    showToast('Text extracted successfully!', 'success');
+                } else {
+                    showToast(data.warning || 'No text detected in the image', 'warning');
+                }
+            } catch (error) {
+                showToast('An error occurred. Please try again.', 'error');
+                console.error(error);
+            } finally {
+                btnText.style.display = 'inline';
+                btnLoader.style.display = 'none';
+                extractBtn.disabled = false;
+            }
+        });
+
+        function updateStats() {
+            const text = outputText.value;
+            charCount.textContent = text.length;
+            wordCount.textContent = text.trim() ? text.trim().split(/\s+/).length : 0;
+            lineCount.textContent = text.split('\n').length;
+        }
+
+        copyBtn.addEventListener('click', async () => {
+            const text = outputText.value;
+            if (!text) return;
+            
+            try {
+                await navigator.clipboard.writeText(text);
+                showToast('Copied to clipboard!', 'success');
+            } catch (error) {
+                showToast('Failed to copy', 'error');
+            }
+        });
+
+        downloadBtn.addEventListener('click', async () => {
+            const text = outputText.value;
+            if (!text) return;
+            
+            try {
+                const response = await fetch('/download', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ text: text, filename: currentFileName })
+                });
+                
+                if (response.ok) {
+                    const blob = await response.blob();
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = currentFileName;
+                    document.body.appendChild(a);
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                    a.remove();
+                    showToast('Download started!', 'success');
+                } else {
+                    showToast('Download failed', 'error');
+                }
+            } catch (error) {
+                showToast('Failed to download', 'error');
+            }
+        });
+
+        clearBtn.addEventListener('click', () => {
+            outputText.value = '';
+            outputPlaceholder.style.display = 'flex';
+            outputActions.style.display = 'none';
+            outputStats.style.display = 'none';
+            charCount.textContent = '0';
+            wordCount.textContent = '0';
+            lineCount.textContent = '0';
+        });
+
+        outputText.addEventListener('input', updateStats);
+
+        function showToast(message, type = 'info') {
+            toast.textContent = message;
+            toast.className = 'toast toast-' + type;
+            toast.style.display = 'block';
+            
+            setTimeout(() => {
+                toast.style.display = 'none';
+            }, 3000);
+        }
+    </script>
+</body>
+</html>

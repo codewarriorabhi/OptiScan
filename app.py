@@ -2,10 +2,12 @@ import os
 import uuid
 import logging
 import shutil
+import re
 from datetime import datetime, timedelta
 from functools import wraps
 from flask import Flask, render_template, request, jsonify, send_file, after_this_request
 from werkzeug.utils import secure_filename
+from dateutil import parser as date_parser
 
 app = Flask(__name__)
 
@@ -207,7 +209,3 @@ def download_text():
         return request
     
     return send_file(temp_path, as_attachment=True, download_name=safe_filename)
-
-if __name__ == '__main__':
-    logger.info("OptiScan application starting...")
-    app.run(host='0.0.0.0', port=5000, debug=False)

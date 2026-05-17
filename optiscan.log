@@ -178,3 +178,412 @@
 2026-04-11 15:29:58,349 - INFO - OCR successful for: fa4e3b1d-bb52-4aab-b977-c06a6723169b_Screenshot_From_2026-03-31_14-50-39.png
 2026-04-11 15:29:58,349 - INFO - Cleaned up temp file: fa4e3b1d-bb52-4aab-b977-c06a6723169b_Screenshot_From_2026-03-31_14-50-39.png
 2026-04-11 15:29:58,350 - INFO - 127.0.0.1 - - [11/Apr/2026 15:29:58] "POST /extract HTTP/1.1" 200 -
+2026-04-11 15:49:47,240 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:47] "GET / HTTP/1.1" 200 -
+2026-04-11 15:49:47,291 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 15:49:49,111 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:49] "GET / HTTP/1.1" 200 -
+2026-04-11 15:49:49,153 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 15:49:50,056 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:50] "GET / HTTP/1.1" 200 -
+2026-04-11 15:49:50,092 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 15:49:50,838 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:50] "GET / HTTP/1.1" 200 -
+2026-04-11 15:49:50,868 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 15:49:51,054 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:51] "GET / HTTP/1.1" 200 -
+2026-04-11 15:49:51,083 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 15:49:51,252 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:51] "GET / HTTP/1.1" 200 -
+2026-04-11 15:49:51,282 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 15:49:51,433 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:51] "GET / HTTP/1.1" 200 -
+2026-04-11 15:49:51,466 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 15:49:51,818 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:51] "GET / HTTP/1.1" 200 -
+2026-04-11 15:49:51,847 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 15:49:52,021 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:52] "GET / HTTP/1.1" 200 -
+2026-04-11 15:49:52,049 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 15:49:52,202 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:52] "GET / HTTP/1.1" 200 -
+2026-04-11 15:49:52,235 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 15:49:52,404 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:52] "GET / HTTP/1.1" 200 -
+2026-04-11 15:49:52,446 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 15:50:24,739 - INFO - 127.0.0.1 - - [11/Apr/2026 15:50:24] "GET / HTTP/1.1" 200 -
+2026-04-11 15:50:24,789 - INFO - 127.0.0.1 - - [11/Apr/2026 15:50:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 15:52:47,731 - INFO - File saved: e4d3f441-fa69-4f5f-a5a2-404eea2ee174_11487180.jpg
+2026-04-11 15:52:49,519 - INFO - OCR successful for: e4d3f441-fa69-4f5f-a5a2-404eea2ee174_11487180.jpg
+2026-04-11 15:52:49,519 - INFO - Cleaned up temp file: e4d3f441-fa69-4f5f-a5a2-404eea2ee174_11487180.jpg
+2026-04-11 15:52:49,520 - INFO - 127.0.0.1 - - [11/Apr/2026 15:52:49] "POST /extract HTTP/1.1" 200 -
+2026-05-06 11:11:17,059 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.13:5000
+2026-05-06 11:11:17,059 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-06 11:11:17,060 - INFO -  * Restarting with stat
+2026-05-06 11:11:17,166 - WARNING -  * Debugger is active!
+2026-05-06 11:11:17,170 - INFO -  * Debugger PIN: 122-559-624
+2026-05-06 11:11:19,182 - INFO -  * Detected change in "/home/warriorr/Desktop/I'm Developer/OptiScan/app.py", reloading
+2026-05-06 11:11:19,211 - INFO -  * Restarting with stat
+2026-05-06 11:11:19,311 - WARNING -  * Debugger is active!
+2026-05-06 11:11:19,313 - INFO -  * Debugger PIN: 122-559-624
+2026-05-06 11:11:38,885 - INFO - 127.0.0.1 - - [06/May/2026 11:11:38] "GET / HTTP/1.1" 200 -
+2026-05-06 11:11:38,919 - INFO - 127.0.0.1 - - [06/May/2026 11:11:38] "GET /static/style.css HTTP/1.1" 200 -
+2026-05-06 11:11:38,956 - INFO - 127.0.0.1 - - [06/May/2026 11:11:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-06 11:12:01,995 - INFO - 127.0.0.1 - - [06/May/2026 11:12:01] "GET / HTTP/1.1" 200 -
+2026-05-06 11:12:02,006 - INFO - 127.0.0.1 - - [06/May/2026 11:12:02] "GET / HTTP/1.1" 200 -
+2026-05-06 11:12:02,232 - INFO - 127.0.0.1 - - [06/May/2026 11:12:02] "GET /static/style.css HTTP/1.1" 200 -
+2026-05-06 11:12:02,234 - INFO - 127.0.0.1 - - [06/May/2026 11:12:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-06 11:12:02,292 - INFO - 127.0.0.1 - - [06/May/2026 11:12:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-06 11:12:02,294 - INFO - 127.0.0.1 - - [06/May/2026 11:12:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-06 11:12:27,394 - INFO - File saved: bbd5f1d7-e33f-4c14-9116-5b22bef18f0e_logo_ggtn.png
+2026-05-06 11:12:28,164 - INFO - OCR successful for: bbd5f1d7-e33f-4c14-9116-5b22bef18f0e_logo_ggtn.png
+2026-05-06 11:12:28,165 - INFO - Cleaned up temp file: bbd5f1d7-e33f-4c14-9116-5b22bef18f0e_logo_ggtn.png
+2026-05-06 11:12:28,165 - INFO - 127.0.0.1 - - [06/May/2026 11:12:28] "POST /extract HTTP/1.1" 200 -
+2026-05-06 11:12:42,995 - INFO - File saved: 1bdbcd70-a036-4551-aed0-495545f66b4c_logo_ggtn.png
+2026-05-06 11:12:43,731 - INFO - OCR successful for: 1bdbcd70-a036-4551-aed0-495545f66b4c_logo_ggtn.png
+2026-05-06 11:12:43,732 - INFO - Cleaned up temp file: 1bdbcd70-a036-4551-aed0-495545f66b4c_logo_ggtn.png
+2026-05-06 11:12:43,772 - INFO - 127.0.0.1 - - [06/May/2026 11:12:43] "POST /extract HTTP/1.1" 200 -
+2026-05-06 11:15:32,665 - INFO - 127.0.0.1 - - [06/May/2026 11:15:32] "GET / HTTP/1.1" 200 -
+2026-05-06 11:15:32,865 - INFO - 127.0.0.1 - - [06/May/2026 11:15:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-06 11:15:32,921 - INFO - 127.0.0.1 - - [06/May/2026 11:15:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-06 11:15:57,264 - INFO - File saved: 9124537b-a296-4361-8884-4b0bf10ac2e0_Abhi_Sign.jpeg
+2026-05-06 11:15:57,424 - WARNING - No text extracted from image
+2026-05-06 11:15:57,424 - INFO - Cleaned up temp file: 9124537b-a296-4361-8884-4b0bf10ac2e0_Abhi_Sign.jpeg
+2026-05-06 11:15:57,424 - INFO - 127.0.0.1 - - [06/May/2026 11:15:57] "POST /extract HTTP/1.1" 200 -
+2026-05-06 11:16:14,986 - INFO - File saved: e5d59520-cf99-43f4-aba4-14a7a0e458ee_10th.jpeg
+2026-05-06 11:16:15,996 - INFO - OCR successful for: e5d59520-cf99-43f4-aba4-14a7a0e458ee_10th.jpeg
+2026-05-06 11:16:15,996 - INFO - Cleaned up temp file: e5d59520-cf99-43f4-aba4-14a7a0e458ee_10th.jpeg
+2026-05-06 11:16:15,996 - INFO - 127.0.0.1 - - [06/May/2026 11:16:15] "POST /extract HTTP/1.1" 200 -
+2026-05-06 11:17:48,288 - INFO - File saved: 4783e46b-d367-4e46-9d7b-0198daaa2605_RajKumar_DL.png
+2026-05-06 11:17:48,942 - INFO - OCR successful for: 4783e46b-d367-4e46-9d7b-0198daaa2605_RajKumar_DL.png
+2026-05-06 11:17:48,942 - INFO - Cleaned up temp file: 4783e46b-d367-4e46-9d7b-0198daaa2605_RajKumar_DL.png
+2026-05-06 11:17:48,942 - INFO - 127.0.0.1 - - [06/May/2026 11:17:48] "POST /extract HTTP/1.1" 200 -
+2026-05-06 12:02:25,791 - INFO -  * Detected change in "/home/warriorr/Desktop/I'm Developer/OptiScan/app.py", reloading
+2026-05-06 12:02:25,871 - INFO -  * Restarting with stat
+2026-05-06 12:02:26,176 - WARNING -  * Debugger is active!
+2026-05-06 12:02:26,180 - INFO -  * Debugger PIN: 122-559-624
+2026-05-06 12:02:31,206 - INFO -  * Detected change in "/home/warriorr/Desktop/I'm Developer/OptiScan/app.py", reloading
+2026-05-06 12:02:31,303 - INFO -  * Restarting with stat
+2026-05-06 12:02:31,535 - WARNING -  * Debugger is active!
+2026-05-06 12:02:31,541 - INFO -  * Debugger PIN: 122-559-624
+2026-05-06 12:04:24,415 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.13:5000
+2026-05-06 12:04:24,415 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-06 12:04:24,417 - INFO -  * Restarting with stat
+2026-05-06 12:04:24,655 - WARNING -  * Debugger is active!
+2026-05-06 12:04:24,660 - INFO -  * Debugger PIN: 122-559-624
+2026-05-17 12:53:36,312 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.13:5000
+2026-05-17 12:53:36,312 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-17 12:53:36,313 - INFO -  * Restarting with stat
+2026-05-17 12:53:36,422 - WARNING -  * Debugger is active!
+2026-05-17 12:53:36,428 - INFO -  * Debugger PIN: 420-586-373
+2026-05-17 12:54:17,844 - INFO - 127.0.0.1 - - [17/May/2026 12:54:17] "GET / HTTP/1.1" 200 -
+2026-05-17 12:54:17,886 - INFO - 127.0.0.1 - - [17/May/2026 12:54:17] "GET /static/style.css HTTP/1.1" 200 -
+2026-05-17 12:54:17,952 - INFO - 127.0.0.1 - - [17/May/2026 12:54:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-17 12:54:36,332 - INFO - File saved: 43bc1816-e39b-41f5-9e3f-86027e280445_logo_ggtn.png
+2026-05-17 12:54:37,126 - INFO - OCR successful for: 43bc1816-e39b-41f5-9e3f-86027e280445_logo_ggtn.png
+2026-05-17 12:54:37,126 - INFO - Cleaned up temp file: 43bc1816-e39b-41f5-9e3f-86027e280445_logo_ggtn.png
+2026-05-17 12:54:37,126 - INFO - 127.0.0.1 - - [17/May/2026 12:54:37] "POST /extract HTTP/1.1" 200 -
+2026-05-17 12:55:03,616 - INFO - 192.168.1.13 - - [17/May/2026 12:55:03] "GET / HTTP/1.1" 200 -
+2026-05-17 12:55:03,822 - INFO - 192.168.1.13 - - [17/May/2026 12:55:03] "GET /static/style.css HTTP/1.1" 200 -
+2026-05-17 12:55:03,865 - INFO - 192.168.1.13 - - [17/May/2026 12:55:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-17 12:55:14,659 - INFO - File saved: 5cd84d52-cdf9-4bba-a5b7-58f9782292e4_RAVI_man.png
+2026-05-17 12:55:15,099 - WARNING - No text extracted from image
+2026-05-17 12:55:15,099 - INFO - Cleaned up temp file: 5cd84d52-cdf9-4bba-a5b7-58f9782292e4_RAVI_man.png
+2026-05-17 12:55:15,100 - INFO - 192.168.1.13 - - [17/May/2026 12:55:15] "POST /extract HTTP/1.1" 200 -
+2026-05-17 12:55:16,561 - INFO - File saved: 2f248210-79a3-41bb-bf41-516d39bfdd64_RAVI_man.png
+2026-05-17 12:55:16,984 - WARNING - No text extracted from image
+2026-05-17 12:55:16,985 - INFO - Cleaned up temp file: 2f248210-79a3-41bb-bf41-516d39bfdd64_RAVI_man.png
+2026-05-17 12:55:16,985 - INFO - 192.168.1.13 - - [17/May/2026 12:55:16] "POST /extract HTTP/1.1" 200 -
+2026-05-17 12:55:38,329 - INFO - File saved: a5c79258-8b3b-482c-948d-624d5e1ad1c0_Screenshot_From_2026-04-13_11-57-19.png
+2026-05-17 12:55:38,626 - INFO - OCR successful for: a5c79258-8b3b-482c-948d-624d5e1ad1c0_Screenshot_From_2026-04-13_11-57-19.png
+2026-05-17 12:55:38,626 - INFO - Cleaned up temp file: a5c79258-8b3b-482c-948d-624d5e1ad1c0_Screenshot_From_2026-04-13_11-57-19.png
+2026-05-17 12:55:38,626 - INFO - 192.168.1.13 - - [17/May/2026 12:55:38] "POST /extract HTTP/1.1" 200 -
+2026-05-17 12:56:12,607 - INFO - File saved: 961d2518-b525-4257-9dfa-542548c5fb78_Screenshot_From_2026-04-13_11-57-19.png
+2026-05-17 12:56:12,910 - INFO - OCR successful for: 961d2518-b525-4257-9dfa-542548c5fb78_Screenshot_From_2026-04-13_11-57-19.png
+2026-05-17 12:56:12,910 - INFO - Cleaned up temp file: 961d2518-b525-4257-9dfa-542548c5fb78_Screenshot_From_2026-04-13_11-57-19.png
+2026-05-17 12:56:12,910 - INFO - 192.168.1.13 - - [17/May/2026 12:56:12] "POST /extract HTTP/1.1" 200 -
+2026-05-17 12:56:32,964 - INFO - 127.0.0.1 - - [17/May/2026 12:56:32] "GET / HTTP/1.1" 200 -
+2026-05-17 12:56:33,013 - INFO - 127.0.0.1 - - [17/May/2026 12:56:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-17 12:58:27,215 - INFO - 192.168.1.13 - - [17/May/2026 12:58:27] "GET / HTTP/1.1" 200 -
+2026-05-17 12:58:27,239 - INFO - 192.168.1.13 - - [17/May/2026 12:58:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-17 12:58:28,097 - INFO - 192.168.1.13 - - [17/May/2026 12:58:28] "GET / HTTP/1.1" 200 -
+2026-05-17 12:58:28,118 - INFO - 192.168.1.13 - - [17/May/2026 12:58:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-17 12:58:28,845 - INFO - 192.168.1.13 - - [17/May/2026 12:58:28] "GET / HTTP/1.1" 200 -
+2026-05-17 12:58:28,868 - INFO - 192.168.1.13 - - [17/May/2026 12:58:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-17 13:01:53,748 - INFO - File saved: 16bfaf07-9e12-49bf-9ea2-29da32c26793_shayri.jpg
+2026-05-17 13:01:53,780 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 13:01:53,780 - ERROR - OCR processing failed
+2026-05-17 13:01:53,780 - INFO - Cleaned up temp file: 16bfaf07-9e12-49bf-9ea2-29da32c26793_shayri.jpg
+2026-05-17 13:01:53,780 - INFO - 192.168.1.13 - - [17/May/2026 13:01:53] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 13:01:55,119 - INFO - File saved: a500642d-37b9-4e1e-9b78-b80af9753662_shayri.jpg
+2026-05-17 13:01:55,120 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 13:01:55,120 - ERROR - OCR processing failed
+2026-05-17 13:01:55,121 - INFO - Cleaned up temp file: a500642d-37b9-4e1e-9b78-b80af9753662_shayri.jpg
+2026-05-17 13:01:55,121 - INFO - 192.168.1.13 - - [17/May/2026 13:01:55] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 13:01:55,983 - INFO - File saved: 294f0758-cff3-4ca0-9a59-137e8be7b768_shayri.jpg
+2026-05-17 13:01:55,984 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 13:01:55,985 - ERROR - OCR processing failed
+2026-05-17 13:01:55,985 - INFO - Cleaned up temp file: 294f0758-cff3-4ca0-9a59-137e8be7b768_shayri.jpg
+2026-05-17 13:01:55,985 - INFO - 192.168.1.13 - - [17/May/2026 13:01:55] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 13:01:56,681 - INFO - File saved: 9d55784b-8d6c-4a3b-be4a-a1a597abef90_shayri.jpg
+2026-05-17 13:01:56,682 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 13:01:56,682 - ERROR - OCR processing failed
+2026-05-17 13:01:56,682 - INFO - Cleaned up temp file: 9d55784b-8d6c-4a3b-be4a-a1a597abef90_shayri.jpg
+2026-05-17 13:01:56,682 - INFO - 192.168.1.13 - - [17/May/2026 13:01:56] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 13:01:56,918 - INFO - File saved: c178201e-a657-44e2-9010-54728e78deff_shayri.jpg
+2026-05-17 13:01:56,919 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 13:01:56,919 - ERROR - OCR processing failed
+2026-05-17 13:01:56,919 - INFO - Cleaned up temp file: c178201e-a657-44e2-9010-54728e78deff_shayri.jpg
+2026-05-17 13:01:56,919 - INFO - 192.168.1.13 - - [17/May/2026 13:01:56] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 13:01:57,101 - INFO - File saved: c86fd028-6399-49df-8e10-672ab7e3f810_shayri.jpg
+2026-05-17 13:01:57,102 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 13:01:57,102 - ERROR - OCR processing failed
+2026-05-17 13:01:57,103 - INFO - Cleaned up temp file: c86fd028-6399-49df-8e10-672ab7e3f810_shayri.jpg
+2026-05-17 13:01:57,103 - INFO - 192.168.1.13 - - [17/May/2026 13:01:57] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 13:02:01,253 - INFO - File saved: b47a70e9-f173-4afc-b867-732ce4bbba2a_shayri.jpg
+2026-05-17 13:02:01,254 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 13:02:01,254 - ERROR - OCR processing failed
+2026-05-17 13:02:01,254 - INFO - Cleaned up temp file: b47a70e9-f173-4afc-b867-732ce4bbba2a_shayri.jpg
+2026-05-17 13:02:01,254 - INFO - 192.168.1.13 - - [17/May/2026 13:02:01] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 13:02:11,855 - INFO - File saved: 2f80b7ce-be86-4ec0-a09e-492b816b1e9a_shayri.jpg
+2026-05-17 13:02:11,856 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 13:02:11,856 - ERROR - OCR processing failed
+2026-05-17 13:02:11,856 - INFO - Cleaned up temp file: 2f80b7ce-be86-4ec0-a09e-492b816b1e9a_shayri.jpg
+2026-05-17 13:02:11,857 - INFO - 192.168.1.13 - - [17/May/2026 13:02:11] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 13:02:12,534 - INFO - File saved: 00198cb6-c6db-4671-82fa-881b0caf372a_shayri.jpg
+2026-05-17 13:02:12,535 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 13:02:12,535 - ERROR - OCR processing failed
+2026-05-17 13:02:12,536 - INFO - Cleaned up temp file: 00198cb6-c6db-4671-82fa-881b0caf372a_shayri.jpg
+2026-05-17 13:02:12,536 - INFO - 192.168.1.13 - - [17/May/2026 13:02:12] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 13:02:18,428 - INFO - File saved: deacb29b-3744-4126-849e-46b82f88f2ab_shayri.jpg
+2026-05-17 13:02:18,429 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 13:02:18,429 - ERROR - OCR processing failed
+2026-05-17 13:02:18,429 - INFO - Cleaned up temp file: deacb29b-3744-4126-849e-46b82f88f2ab_shayri.jpg
+2026-05-17 13:02:18,429 - INFO - 192.168.1.13 - - [17/May/2026 13:02:18] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 13:02:19,270 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 13:02:19,270 - INFO - 192.168.1.13 - - [17/May/2026 13:02:19] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 13:02:30,189 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 13:02:30,189 - INFO - 192.168.1.13 - - [17/May/2026 13:02:30] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 13:02:31,297 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 13:02:31,298 - INFO - 192.168.1.13 - - [17/May/2026 13:02:31] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 13:02:31,986 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 13:02:31,987 - INFO - 192.168.1.13 - - [17/May/2026 13:02:31] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 13:02:32,257 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 13:02:32,257 - INFO - 192.168.1.13 - - [17/May/2026 13:02:32] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 13:02:32,439 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 13:02:32,440 - INFO - 192.168.1.13 - - [17/May/2026 13:02:32] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 13:02:32,983 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 13:02:32,984 - INFO - 192.168.1.13 - - [17/May/2026 13:02:32] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 13:02:33,669 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 13:02:33,670 - INFO - 192.168.1.13 - - [17/May/2026 13:02:33] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 13:02:43,360 - INFO - 192.168.1.13 - - [17/May/2026 13:02:43] "GET / HTTP/1.1" 200 -
+2026-05-17 13:02:43,588 - INFO - 192.168.1.13 - - [17/May/2026 13:02:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-17 13:02:43,657 - INFO - 192.168.1.13 - - [17/May/2026 13:02:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-17 13:02:51,288 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 13:02:51,289 - INFO - 192.168.1.13 - - [17/May/2026 13:02:51] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 13:02:52,537 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 13:02:52,538 - INFO - 192.168.1.13 - - [17/May/2026 13:02:52] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 13:02:55,199 - INFO - File saved: 7f8024b3-025c-4bd9-9361-ad50008ad081_logo_ggtn.png
+2026-05-17 13:02:55,948 - INFO - OCR successful for: 7f8024b3-025c-4bd9-9361-ad50008ad081_logo_ggtn.png
+2026-05-17 13:02:55,949 - INFO - Cleaned up temp file: 7f8024b3-025c-4bd9-9361-ad50008ad081_logo_ggtn.png
+2026-05-17 13:02:55,949 - INFO - 192.168.1.13 - - [17/May/2026 13:02:55] "POST /extract HTTP/1.1" 200 -
+2026-05-17 13:03:08,274 - INFO - File saved: 07a30d78-be06-4a0c-a8dd-1d2f387c710a_shayri.jpg
+2026-05-17 13:03:08,275 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 13:03:08,276 - ERROR - OCR processing failed
+2026-05-17 13:03:08,276 - INFO - Cleaned up temp file: 07a30d78-be06-4a0c-a8dd-1d2f387c710a_shayri.jpg
+2026-05-17 13:03:08,276 - INFO - 192.168.1.13 - - [17/May/2026 13:03:08] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 13:03:09,212 - INFO - File saved: bfbb71d6-1874-4e11-9ebd-25dba96db749_shayri.jpg
+2026-05-17 13:03:09,213 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 13:03:09,213 - ERROR - OCR processing failed
+2026-05-17 13:03:09,214 - INFO - Cleaned up temp file: bfbb71d6-1874-4e11-9ebd-25dba96db749_shayri.jpg
+2026-05-17 13:03:09,214 - INFO - 192.168.1.13 - - [17/May/2026 13:03:09] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 13:03:09,608 - INFO - File saved: 6583605d-0b6f-49b8-b026-b158577d7c40_shayri.jpg
+2026-05-17 13:03:09,609 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 13:03:09,609 - ERROR - OCR processing failed
+2026-05-17 13:03:09,610 - INFO - Cleaned up temp file: 6583605d-0b6f-49b8-b026-b158577d7c40_shayri.jpg
+2026-05-17 13:03:09,610 - INFO - 192.168.1.13 - - [17/May/2026 13:03:09] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 13:03:09,805 - INFO - File saved: 75a0f0bf-551c-417c-9d45-e9489b832d0a_shayri.jpg
+2026-05-17 13:03:09,806 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 13:03:09,806 - ERROR - OCR processing failed
+2026-05-17 13:03:09,807 - INFO - Cleaned up temp file: 75a0f0bf-551c-417c-9d45-e9489b832d0a_shayri.jpg
+2026-05-17 13:03:09,807 - INFO - 192.168.1.13 - - [17/May/2026 13:03:09] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 13:03:10,078 - INFO - File saved: ee2be582-caa9-4dbc-aefd-a0964b61c0dd_shayri.jpg
+2026-05-17 13:03:10,079 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 13:03:10,079 - ERROR - OCR processing failed
+2026-05-17 13:03:10,080 - INFO - Cleaned up temp file: ee2be582-caa9-4dbc-aefd-a0964b61c0dd_shayri.jpg
+2026-05-17 13:03:10,080 - INFO - 192.168.1.13 - - [17/May/2026 13:03:10] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 13:03:10,260 - INFO - File saved: aa6b8324-e9c2-458c-bcaa-69fc29089561_shayri.jpg
+2026-05-17 13:03:10,260 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 13:03:10,260 - ERROR - OCR processing failed
+2026-05-17 13:03:10,261 - INFO - Cleaned up temp file: aa6b8324-e9c2-458c-bcaa-69fc29089561_shayri.jpg
+2026-05-17 13:03:10,261 - INFO - 192.168.1.13 - - [17/May/2026 13:03:10] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 13:03:10,900 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 13:03:10,900 - INFO - 192.168.1.13 - - [17/May/2026 13:03:10] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 13:03:11,146 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 13:03:11,146 - INFO - 192.168.1.13 - - [17/May/2026 13:03:11] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 13:03:11,326 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 13:03:11,327 - INFO - 192.168.1.13 - - [17/May/2026 13:03:11] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 13:03:12,301 - INFO - File saved: 69d713a1-61f1-4c64-aa8c-c927e2896d48_shayri.jpg
+2026-05-17 13:03:12,302 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 13:03:12,302 - ERROR - OCR processing failed
+2026-05-17 13:03:12,303 - INFO - Cleaned up temp file: 69d713a1-61f1-4c64-aa8c-c927e2896d48_shayri.jpg
+2026-05-17 13:03:12,303 - INFO - 192.168.1.13 - - [17/May/2026 13:03:12] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 14:12:02,226 - INFO -  * Detected change in "/home/warriorr/Desktop/I'm Developer/OptiScan/create_hindi_test_image.py", reloading
+2026-05-17 14:12:02,377 - INFO -  * Restarting with stat
+2026-05-17 14:12:02,664 - WARNING -  * Debugger is active!
+2026-05-17 14:12:02,672 - INFO -  * Debugger PIN: 420-586-373
+2026-05-17 14:18:10,914 - INFO -  * Detected change in "/home/warriorr/Desktop/I'm Developer/OptiScan/create_hindi_test_image.py", reloading
+2026-05-17 14:18:10,975 - INFO -  * Restarting with stat
+2026-05-17 14:18:11,241 - WARNING -  * Debugger is active!
+2026-05-17 14:18:11,245 - INFO -  * Debugger PIN: 420-586-373
+2026-05-17 14:18:14,268 - INFO -  * Detected change in "/home/warriorr/Desktop/I'm Developer/OptiScan/create_hindi_test_image.py", reloading
+2026-05-17 14:18:14,337 - INFO -  * Restarting with stat
+2026-05-17 14:18:14,572 - WARNING -  * Debugger is active!
+2026-05-17 14:18:14,576 - INFO -  * Debugger PIN: 420-586-373
+2026-05-17 14:18:52,960 - INFO - File saved: 4d040f83-1a97-44e6-8cf1-2b2c68274351_hindi_test.png
+2026-05-17 14:18:53,114 - INFO - OCR successful for: 4d040f83-1a97-44e6-8cf1-2b2c68274351_hindi_test.png
+2026-05-17 14:18:53,114 - INFO - Cleaned up temp file: 4d040f83-1a97-44e6-8cf1-2b2c68274351_hindi_test.png
+2026-05-17 14:18:53,114 - INFO - 127.0.0.1 - - [17/May/2026 14:18:53] "POST /extract HTTP/1.1" 200 -
+2026-05-17 14:38:38,295 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.13:5000
+2026-05-17 14:38:38,296 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-17 14:38:38,297 - INFO -  * Restarting with stat
+2026-05-17 14:38:38,525 - WARNING -  * Debugger is active!
+2026-05-17 14:38:38,532 - INFO -  * Debugger PIN: 912-706-238
+2026-05-17 14:39:17,884 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.13:5000
+2026-05-17 14:39:17,885 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-17 14:39:17,885 - INFO -  * Restarting with stat
+2026-05-17 14:39:18,127 - WARNING -  * Debugger is active!
+2026-05-17 14:39:18,130 - INFO -  * Debugger PIN: 912-706-238
+2026-05-17 14:46:40,806 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.13:5000
+2026-05-17 14:46:40,806 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-17 14:46:40,807 - INFO -  * Restarting with stat
+2026-05-17 14:46:41,013 - WARNING -  * Debugger is active!
+2026-05-17 14:46:41,015 - INFO -  * Debugger PIN: 912-706-238
+2026-05-17 14:57:11,161 - INFO - 127.0.0.1 - - [17/May/2026 14:57:11] "GET / HTTP/1.1" 200 -
+2026-05-17 14:57:11,227 - INFO - 127.0.0.1 - - [17/May/2026 14:57:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-17 14:57:23,821 - INFO - 192.168.1.13 - - [17/May/2026 14:57:23] "GET / HTTP/1.1" 200 -
+2026-05-17 14:57:24,242 - INFO - 192.168.1.13 - - [17/May/2026 14:57:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-17 14:57:24,387 - INFO - 192.168.1.13 - - [17/May/2026 14:57:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-17 14:57:24,390 - INFO - 192.168.1.13 - - [17/May/2026 14:57:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-17 14:57:42,017 - INFO - File saved: 44a1f386-ead3-4511-95e7-f36ef41c58d2_shayri.jpg
+2026-05-17 14:57:42,148 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 14:57:42,148 - ERROR - OCR processing failed
+2026-05-17 14:57:42,148 - INFO - Cleaned up temp file: 44a1f386-ead3-4511-95e7-f36ef41c58d2_shayri.jpg
+2026-05-17 14:57:42,149 - INFO - 192.168.1.13 - - [17/May/2026 14:57:42] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 14:57:43,354 - INFO - File saved: 2cc0a97a-1069-476a-8d49-b5bab7a3371e_shayri.jpg
+2026-05-17 14:57:43,355 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 14:57:43,355 - ERROR - OCR processing failed
+2026-05-17 14:57:43,355 - INFO - Cleaned up temp file: 2cc0a97a-1069-476a-8d49-b5bab7a3371e_shayri.jpg
+2026-05-17 14:57:43,355 - INFO - 192.168.1.13 - - [17/May/2026 14:57:43] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 14:57:44,078 - INFO - File saved: a1157441-b849-49d4-a638-33520befe29f_shayri.jpg
+2026-05-17 14:57:44,079 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 14:57:44,079 - ERROR - OCR processing failed
+2026-05-17 14:57:44,080 - INFO - Cleaned up temp file: a1157441-b849-49d4-a638-33520befe29f_shayri.jpg
+2026-05-17 14:57:44,080 - INFO - 192.168.1.13 - - [17/May/2026 14:57:44] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 14:57:44,259 - INFO - File saved: 35497c59-bd44-4ffa-a34f-1a22d815e1f9_shayri.jpg
+2026-05-17 14:57:44,260 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 14:57:44,260 - ERROR - OCR processing failed
+2026-05-17 14:57:44,261 - INFO - Cleaned up temp file: 35497c59-bd44-4ffa-a34f-1a22d815e1f9_shayri.jpg
+2026-05-17 14:57:44,261 - INFO - 192.168.1.13 - - [17/May/2026 14:57:44] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 14:57:44,766 - INFO - File saved: d3c47cce-abd1-4eb2-a6b5-810362977691_shayri.jpg
+2026-05-17 14:57:44,767 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 14:57:44,767 - ERROR - OCR processing failed
+2026-05-17 14:57:44,767 - INFO - Cleaned up temp file: d3c47cce-abd1-4eb2-a6b5-810362977691_shayri.jpg
+2026-05-17 14:57:44,768 - INFO - 192.168.1.13 - - [17/May/2026 14:57:44] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 14:57:44,976 - INFO - File saved: 900475c9-3028-45d3-9418-e8d7de428c1f_shayri.jpg
+2026-05-17 14:57:44,977 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 14:57:44,977 - ERROR - OCR processing failed
+2026-05-17 14:57:44,978 - INFO - Cleaned up temp file: 900475c9-3028-45d3-9418-e8d7de428c1f_shayri.jpg
+2026-05-17 14:57:44,978 - INFO - 192.168.1.13 - - [17/May/2026 14:57:44] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 14:57:45,157 - INFO - File saved: 184701f9-02eb-4a9f-ad21-bbc6d927bcaa_shayri.jpg
+2026-05-17 14:57:45,158 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 14:57:45,158 - ERROR - OCR processing failed
+2026-05-17 14:57:45,158 - INFO - Cleaned up temp file: 184701f9-02eb-4a9f-ad21-bbc6d927bcaa_shayri.jpg
+2026-05-17 14:57:45,158 - INFO - 192.168.1.13 - - [17/May/2026 14:57:45] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 14:57:45,726 - INFO - File saved: b30681d2-aa0b-4b0d-a7b7-ee2e6d684c74_shayri.jpg
+2026-05-17 14:57:45,727 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 14:57:45,727 - ERROR - OCR processing failed
+2026-05-17 14:57:45,728 - INFO - Cleaned up temp file: b30681d2-aa0b-4b0d-a7b7-ee2e6d684c74_shayri.jpg
+2026-05-17 14:57:45,728 - INFO - 192.168.1.13 - - [17/May/2026 14:57:45] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 14:57:45,904 - INFO - File saved: 458f3903-fc64-46ad-bd51-ba35b2618fdc_shayri.jpg
+2026-05-17 14:57:45,905 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 14:57:45,906 - ERROR - OCR processing failed
+2026-05-17 14:57:45,906 - INFO - Cleaned up temp file: 458f3903-fc64-46ad-bd51-ba35b2618fdc_shayri.jpg
+2026-05-17 14:57:45,906 - INFO - 192.168.1.13 - - [17/May/2026 14:57:45] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 14:57:53,592 - INFO - File saved: a8ce25cb-c092-4eb7-aec7-f3b1afdbcf78_logo_ggtn.png
+2026-05-17 14:57:55,190 - INFO - OCR successful for: a8ce25cb-c092-4eb7-aec7-f3b1afdbcf78_logo_ggtn.png
+2026-05-17 14:57:55,190 - INFO - Cleaned up temp file: a8ce25cb-c092-4eb7-aec7-f3b1afdbcf78_logo_ggtn.png
+2026-05-17 14:57:55,191 - INFO - 192.168.1.13 - - [17/May/2026 14:57:55] "POST /extract HTTP/1.1" 200 -
+2026-05-17 14:58:11,155 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 14:58:11,155 - INFO - 192.168.1.13 - - [17/May/2026 14:58:11] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 14:58:12,502 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 14:58:12,502 - INFO - 192.168.1.13 - - [17/May/2026 14:58:12] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 14:58:13,169 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 14:58:13,170 - INFO - 192.168.1.13 - - [17/May/2026 14:58:13] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 14:58:13,741 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 14:58:13,742 - INFO - 192.168.1.13 - - [17/May/2026 14:58:13] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 14:58:13,933 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 14:58:13,934 - INFO - 192.168.1.13 - - [17/May/2026 14:58:13] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 14:58:14,115 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 14:58:14,116 - INFO - 192.168.1.13 - - [17/May/2026 14:58:14] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 14:58:15,948 - INFO - 192.168.1.13 - - [17/May/2026 14:58:15] "GET / HTTP/1.1" 200 -
+2026-05-17 14:58:16,011 - INFO - 192.168.1.13 - - [17/May/2026 14:58:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-17 14:58:17,051 - INFO - 192.168.1.13 - - [17/May/2026 14:58:17] "GET / HTTP/1.1" 200 -
+2026-05-17 14:58:17,106 - INFO - 192.168.1.13 - - [17/May/2026 14:58:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-17 14:58:24,061 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 14:58:24,061 - INFO - 192.168.1.13 - - [17/May/2026 14:58:24] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 14:58:25,124 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 14:58:25,125 - INFO - 192.168.1.13 - - [17/May/2026 14:58:25] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 14:58:25,306 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 14:58:25,307 - INFO - 192.168.1.13 - - [17/May/2026 14:58:25] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 14:58:25,836 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 14:58:25,837 - INFO - 192.168.1.13 - - [17/May/2026 14:58:25] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 14:58:26,031 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 14:58:26,032 - INFO - 192.168.1.13 - - [17/May/2026 14:58:26] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 14:58:26,236 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 14:58:26,237 - INFO - 192.168.1.13 - - [17/May/2026 14:58:26] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 14:58:26,449 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 14:58:26,449 - INFO - 192.168.1.13 - - [17/May/2026 14:58:26] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 14:58:26,629 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 14:58:26,630 - INFO - 192.168.1.13 - - [17/May/2026 14:58:26] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 14:58:27,864 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 14:58:27,865 - INFO - 192.168.1.13 - - [17/May/2026 14:58:27] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 14:58:28,980 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 14:58:28,981 - INFO - 192.168.1.13 - - [17/May/2026 14:58:28] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 14:58:29,859 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 14:58:29,860 - INFO - 192.168.1.13 - - [17/May/2026 14:58:29] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 14:58:32,076 - WARNING - Rate limit exceeded for 192.168.1.13
+2026-05-17 14:58:32,076 - INFO - 192.168.1.13 - - [17/May/2026 14:58:32] "[31m[1mPOST /extract HTTP/1.1[0m" 429 -
+2026-05-17 14:59:40,246 - INFO - File saved: 7e04ce9a-bfd5-4ba5-9bf2-e0999a8e5809_logo_ggtn.png
+2026-05-17 14:59:41,800 - INFO - OCR successful for: 7e04ce9a-bfd5-4ba5-9bf2-e0999a8e5809_logo_ggtn.png
+2026-05-17 14:59:41,800 - INFO - Cleaned up temp file: 7e04ce9a-bfd5-4ba5-9bf2-e0999a8e5809_logo_ggtn.png
+2026-05-17 14:59:41,801 - INFO - 192.168.1.13 - - [17/May/2026 14:59:41] "POST /extract HTTP/1.1" 200 -
+2026-05-17 14:59:43,397 - INFO - File saved: 7c5d9912-4e02-4133-a2cc-f1045ea45e63_logo_ggtn.png
+2026-05-17 14:59:44,891 - INFO - OCR successful for: 7c5d9912-4e02-4133-a2cc-f1045ea45e63_logo_ggtn.png
+2026-05-17 14:59:44,891 - INFO - Cleaned up temp file: 7c5d9912-4e02-4133-a2cc-f1045ea45e63_logo_ggtn.png
+2026-05-17 14:59:44,892 - INFO - 192.168.1.13 - - [17/May/2026 14:59:44] "POST /extract HTTP/1.1" 200 -
+2026-05-17 14:59:53,154 - INFO - File saved: 666a3868-0555-47e5-8946-ae266ea7655a_logo_ggtn.png
+2026-05-17 14:59:54,608 - INFO - OCR successful for: 666a3868-0555-47e5-8946-ae266ea7655a_logo_ggtn.png
+2026-05-17 14:59:54,608 - INFO - Cleaned up temp file: 666a3868-0555-47e5-8946-ae266ea7655a_logo_ggtn.png
+2026-05-17 14:59:54,609 - INFO - 192.168.1.13 - - [17/May/2026 14:59:54] "POST /extract HTTP/1.1" 200 -
+2026-05-17 15:00:05,017 - INFO - File saved: 9bc9a961-e8bb-4ecf-a875-d6a77df41402_shayri.jpg
+2026-05-17 15:00:05,018 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 15:00:05,018 - ERROR - OCR processing failed
+2026-05-17 15:00:05,018 - INFO - Cleaned up temp file: 9bc9a961-e8bb-4ecf-a875-d6a77df41402_shayri.jpg
+2026-05-17 15:00:05,019 - INFO - 192.168.1.13 - - [17/May/2026 15:00:05] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 15:00:06,450 - INFO - File saved: 8c8a46cb-4325-4f37-ace8-b19cb2209d82_shayri.jpg
+2026-05-17 15:00:06,452 - ERROR - OCR processing error: Unsupported image format/type
+2026-05-17 15:00:06,452 - ERROR - OCR processing failed
+2026-05-17 15:00:06,452 - INFO - Cleaned up temp file: 8c8a46cb-4325-4f37-ace8-b19cb2209d82_shayri.jpg
+2026-05-17 15:00:06,453 - INFO - 192.168.1.13 - - [17/May/2026 15:00:06] "[35m[1mPOST /extract HTTP/1.1[0m" 500 -
+2026-05-17 15:00:17,927 - INFO - File saved: ff3d43d0-a702-42ea-830a-3a67479e766c_logo_ggtn.png
+2026-05-17 15:00:19,395 - INFO - OCR successful for: ff3d43d0-a702-42ea-830a-3a67479e766c_logo_ggtn.png
+2026-05-17 15:00:19,395 - INFO - Cleaned up temp file: ff3d43d0-a702-42ea-830a-3a67479e766c_logo_ggtn.png
+2026-05-17 15:00:19,396 - INFO - 192.168.1.13 - - [17/May/2026 15:00:19] "POST /extract HTTP/1.1" 200 -

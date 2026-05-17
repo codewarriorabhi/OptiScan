@@ -96,19 +96,19 @@ def add_security_headers(response):
     response.headers['Strict-Transport-Security'] = 'max-age=31536000; includeSubDomains'
     return response
 
-def perform_ocr(filepath):
+def perform_ocr(filepath, lang='eng'):
     try:
         from PIL import Image
         import pytesseract
-        
+
         pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
-        
+
         img = Image.open(filepath)
-        
-        extracted_text = pytesseract.image_to_string(img, lang='eng')
-        
+
+        extracted_text = pytesseract.image_to_string(img, lang=lang)
+
         return extracted_text.strip()
-        
+
     except ImportError as e:
         logger.error(f"Missing OCR dependency: {e}")
         return None
@@ -163,9 +163,10 @@ def extract_text():
     try:
         file.save(filepath)
         logger.info(f"File saved: {unique_filename}")
-        
-        result = perform_ocr(filepath)
-        
+
+        lang = request.form.get('lang', 'eng')
+        result = perform_ocr(filepath, lang)
+
         if result is None:
             logger.error("OCR processing failed")
             return jsonify({'error': 'OCR processing failed. Please try again.'}), 500
@@ -209,3 +210,6 @@ def download_text():
         return request
     
     return send_file(temp_path, as_attachment=True, download_name=safe_filename)
+
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0', port=5000)
